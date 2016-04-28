@@ -11,7 +11,7 @@ add_subdirectory(Chapter1)
 # add_subdirectory(Chapter10_sort)
 # add_subdirectory(exp)
 
-add_executable(cc150 ${CONCURR_CHAPTER1}
+add_executable(concurr ${CONCURR_CHAPTER1_SRC}
 	# ${CC150_INC_SRC}
 	# ${CC150_LEETCODE_SRCS}
 	# ${CC150_CHAPTER10_SORT_SRCS}
