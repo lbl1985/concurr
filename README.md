@@ -1,0 +1,1 @@
+Folder for play with c++ concurrency book
