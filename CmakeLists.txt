@@ -1,0 +1,26 @@
+cmake_minimum_required (VERSION 2.6)
+project (concurr)
+
+# include_directories ("${PROJECT_SOURCE_DIR}/inc")
+# include_directories ("${PROJECT_SOURCE_DIR}/tools")
+
+add_subdirectory(Chapter1)
+# add_subdirectory(tools)
+# add_subdirectory(leetCode)
+# add_subdirectory(Chapter4_tree)
+# add_subdirectory(Chapter10_sort)
+# add_subdirectory(exp)
+
+add_executable(cc150 ${CONCURR_CHAPTER1}
+	# ${CC150_INC_SRC}
+	# ${CC150_LEETCODE_SRCS}
+	# ${CC150_CHAPTER10_SORT_SRCS}
+	# ${CC150_CHAPTER4_TREE}
+	# ${CC150_EXP_SRCS}
+	)
+
+source_group(inc FILES ${CONCURR_CHAPTER1_SRC})
+# source_group(Chapter4_tree FILES ${CC150_CHAPTER4_TREE})
+# source_group(Chapter10_sort FILES ${CC150_CHAPTER10_SORT_SRCS})
+# source_group(leetCode FILES ${CC150_LEETCODE_SRCS})
+# source_group(exp FILES ${CC150_EXP_SRCS})
